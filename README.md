@@ -171,7 +171,7 @@ const styles = StyleSheet.create({
 
 🚀 Copy the same thing into `featured.js`. Refresh the simulator again. Now we have a nice looking tab bar at the bottom of the page. Should look something like this:
 
-![tab bar](./images/Screen Shot 2017-05-16 at 3.30.57 PM.png)
+![tab bar](./images/bluefeatured.png)
 
 Let's make the featured page look a little less boring. Replace all the code in it with this:
 
@@ -248,7 +248,7 @@ module.exports = ImageView;
 
 :snowflake: Now, instead of some gross text up in the top corner, we have this nice react logo, since we love react so much:
 
-![featured tab](./images/featured.png)
+![featured tab](./images/bluefeatured.png)
 
 ## Adding Content to the Search Page
 So we've got some basic navigation working on the app, but it looks pretty boring. Let's make some cool stuff on the search tab, like how about a nice table view?
@@ -534,7 +534,7 @@ module.exports = VideoDetail;
 :snowflake: This is a little different from what we've been doing. The WebView component is a sort of hybrid component that's actually just rendering a webpage. The `source` prop holds a uri that's called as if in a browser and then displayed in our application. Notice how it looks just like watching youtube on a mobile device. Pretty cool that we can do this within our application alongside native components, huh?
 
 Here's what the app should be looking like now:
-![finished app](./images/Screen Shot 2017-05-16 at 3.29.59 PM.png)
+![finished app](./images/bluesearch.png)
 
 🚀 Now that the app is complete, we're using all the styling we pasted in awhile ago. Now it's your turn: play around with the styling in `video_list.js`. If you haven't enabled hot-reloading yet, do that, it'll make it easy to see all your styling changes.
 
